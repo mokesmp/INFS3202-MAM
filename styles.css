@@ -1,0 +1,46 @@
+body{
+	font-family: Helvetica Neue, Century Gothic, sans-serif;
+	background-color: #14213D;
+}
+
+/*https://www.youtube.com/watch?v=GAOBXGPuKqo*/
+
+.SignUp, .LogIn{
+	margin: auto;
+	max-width:50%;
+	background-color: white;
+	padding: 5%;	
+}
+
+.SignUpHead, .LogInHead{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.form{
+	position: relative;
+	max-width: 300px; /*Changes the width of the textfields*/
+	margin: 0 auto 100px;
+	text-align: center;
+}
+
+.form input {
+	text-align: center;
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+#buttonHov{
+	background-color: #ECE4B7;
+}
+
+#buttonHov:hover{
+	background-color: #D8C76B;
+	color: #FFFFFF;
+}
